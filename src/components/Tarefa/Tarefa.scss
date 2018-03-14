@@ -1,0 +1,32 @@
+$danger: #dc3545;
+$success: #28a745;
+
+li{
+    background-color: #AAA;
+    padding: 5px;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+
+    span.fa{
+        color: #FFF;
+        float: right;
+        font-weight: lighter;
+        font-size: 1rem;
+        cursor: pointer;
+        vertical-align: middle;
+    }
+
+    span.fa-check{
+        color: $success;
+    }
+
+    span.fa-times{
+        color: $danger;
+    }
+
+    span.fa-trash{
+        color: $danger;
+        margin-right: 15px;
+    }
+
+}
